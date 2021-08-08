@@ -2,10 +2,10 @@
   "name": "test-adapter-converter",
   "displayName": "Test Adapter Converter",
   "description": "Converter extension from the Test Adapter UI to native VS Code testing",
-  "publisher": "ms-vscode",
+  "publisher": "hbenl",
   "version": "0.1.2",
   "engines": {
-    "vscode": "^1.59.0-20210722"
+    "vscode": "^1.59.0"
   },
   "capabilities": {
     "untrustedWorkspaces": {
@@ -22,7 +22,6 @@
     "onCommand:test-explorer.run-all"
   ],
   "main": "./out/extension.js",
-  "enableProposedApi": true,
   "contributes": {
     "commands": [
       {
